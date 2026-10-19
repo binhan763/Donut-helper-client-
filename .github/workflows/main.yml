@@ -29,8 +29,7 @@ jobs:
 
       - name: Extract source archive
         run: |
-          unzip -q DonutClientHelper-1.21.11-source.zip -d source
-          find source -name build.gradle -o -name build.gradle.kts
+          unzip -q "DonutClientHelper-1.21.11-source (1).zip" -d source
 
       - name: Build Minecraft mod
         run: |
